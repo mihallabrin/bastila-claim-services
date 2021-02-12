@@ -10,6 +10,13 @@ describe('Header', () => {
     expect(headerEl).toBeInTheDocument();
   });
 
+  it('should render content', () => {
+    render(<Layout />);
+    const contentEl = screen.getByTestId('Content');
+
+    expect(contentEl).toBeInTheDocument();
+  });
+
   it('should render the footer', () => {
     render(<Layout />);
     const footerEl = screen.getByTestId('Footer');
