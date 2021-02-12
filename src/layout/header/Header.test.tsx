@@ -5,8 +5,15 @@ import Header from './Header';
 describe('Header', () => {
   it('should render', () => {
     render(<Header />);
-    const headerText = screen.getByText(/Header/i);
+    const headerEl = screen.getByTestId('Header');
 
-    expect(headerText).toBeInTheDocument();
+    expect(headerEl).toBeInTheDocument();
+  });
+
+  it('should render the logo', () => {
+    render(<Header />);
+    const logoEl = screen.getByTestId('Logo');
+
+    expect(logoEl).toBeInTheDocument();
   });
 });

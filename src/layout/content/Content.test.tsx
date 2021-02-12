@@ -6,7 +6,7 @@ import Content from './Content';
 describe('Content', () => {
   it('should render', () => {
     render(<Content />);
-    const contentEl = screen.getByText(/Content/i);
+    const contentEl = screen.getByTestId('Content');
 
     expect(contentEl).toBeInTheDocument();
   });
