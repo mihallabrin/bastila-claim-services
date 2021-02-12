@@ -10,6 +10,11 @@
             "StackName": "amplify-bastilaclaimservices-dev-112721",
             "StackId": "arn:aws:cloudformation:us-east-1:716949790370:stack/amplify-bastilaclaimservices-dev-112721/34129890-6d4f-11eb-9247-12ff7c2f10c5",
             "AmplifyAppId": "d2bwwa49dfny3c"
+        },
+        "categories": {
+            "auth": {
+                "bastilaclaimservices7b4b68cc": {}
+            }
         }
     }
 }
