@@ -7,11 +7,11 @@ import Footer from './footer/Footer';
 
 function Layout() {
   return (
-    <>
+    <div className='Layout'>
       <Header />
       <Content />
       <Footer />
-    </>
+    </div>
   );
 }
 
