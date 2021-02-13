@@ -6,8 +6,8 @@ import Footer from './Footer';
 describe('Footer', () => {
   it('should render', () => {
     render(<Footer />);
-    const footerText = screen.getByTestId('Footer');
+    const footerEl = screen.getByTestId('Footer');
 
-    expect(footerText).toBeInTheDocument();
+    expect(footerEl).toBeInTheDocument();
   });
 });
